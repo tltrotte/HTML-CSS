@@ -1,0 +1,124 @@
+
+.mobile{
+    display: flex;
+    flex-direction: column;    
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+        
+    
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    font-weight: 800
+   
+}
+.logo{
+    
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: #69696a;
+        
+        
+    
+    
+}
+       
+h2 {
+    margin-left: 10px;
+}
+
+p {
+                vertical-align: left;
+            	margin-left: 10px;
+            	width: 500px;
+            	float: left;
+            	margin-right: 110px;
+            	border-left: 4px solid #69696a;
+            	color: #69696a;
+                padding-left: 10px;
+}
+.Scrollbtn {
+	background-color: #000;
+	padding: 4px 26px;
+	color: white;
+	border: 1px solid black;
+	border-radius: 71px;
+
+   
+    
+}
+.Hirebtn { padding: 2px 15px;
+  background-color: black;
+	color: #ffffff;
+	border: 2px solid black;
+	border-radius: 50px;
+justify-content: center;
+    
+}
+
+@media only screen and (min-width: 1200px){
+  .header{justify-content: space-around;
+  align-items: center;
+    display: flex;
+    height: 20px;
+      width: 100%;
+      flex-direction: row;}
+    .navbar{display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+    }
+    
+    .circles {display: flex;
+    justify-content: flex-end;
+    
+    }
+.circle3 {
+
+    
+    background-color: rgba(247, 136, 167, 0.6);
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+
+    z-index: -2;}
+    
+.circle1 {
+      width: 125px;
+      height: 125px;
+      border-radius: 75px;
+      background-color: rgba(247, 193, 162, 0.7) /* Orange Circle */;
+
+      z-index: 2;
+     
+    }
+.circle2 {
+          width:90px;
+          height: 90px;
+          border-radius: 50px;
+          background-color: rgba(207, 130, 213, 0.6) /*purple circle */;
+         
+          z-index: -1;
+
+        }
+
+    p{display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .Scrollbtn{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
